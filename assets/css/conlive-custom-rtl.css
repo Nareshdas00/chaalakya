@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.sec-title__shape::before,
+.client-carousel__title__shape::before {
+  clip-path: polygon(35% 0, 0% 15%, 0% 85%, 35% 100%, 100% 50%);
+}
+
+.sec-title__shape::after,
+.client-carousel__title__shape::after {
+  clip-path: polygon(65% 0, 100% 15%, 100% 85%, 65% 100%, 0 50%);
+}
+
+.conlive-btn::before,
+.join-meeting__btn::before {
+  clip-path: polygon(0 0, 100% 50%, 0 100%, 100% 100%, 100% 0);
+}
+
+.topbar__inner::before {
+  clip-path: polygon(100% 0, 0% 100%, 0% 0);
+}
+
+.topbar__info {
+  padding-right: 20px;
+}
+
+.hero-slider-one .active .hero-slider-one__title__highlight::after {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hero-slider-one .conlive-owl__carousel__counter {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hero-slider-one .conlive-owl__carousel__counter__total::before {
+    left: -15px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-slider-one .conlive-owl__carousel__counter {
+    left: 56px;
+  }
+  .hero-slider-one .conlive-owl__carousel__counter__total::before {
+    right: 0px;
+  }
+}
+.about-one__image__two::before, .about-one__image__two::after {
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+@media (min-width: 992px) {
+  .event-one__card .conlive-btn {
+    writing-mode: sideways-rl;
+  }
+}
+.testimonials-one .conlive-owl__carousel__counter__total::before {
+  left: -15px;
+}
+
+.contact-one__form__checked-box label span::before {
+  content: "";
+  width: 10px;
+  height: 7px;
+  display: block;
+  top: 6px;
+  right: 4px;
+}
+
+.blog-card__meta {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.newsletter__wrapper::before {
+  clip-path: polygon(100% 100%, 0 100%, 0 0);
+}
+
+.newsletter__wrapper::after {
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+}
+/*# sourceMappingURL=conlive-custom-rtl.css.map */
