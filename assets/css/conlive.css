@@ -4722,21 +4722,23 @@ body.megamenu-popup-active .mobile-nav__content {
   z-index: 2;
 }
 .contact-one__inner {
-  padding-top: 180px;
+  padding-top: 40px;
+  padding-bottom: 120px
 }
 @media (max-width: 1399px) {
   .contact-one__inner {
-    padding-top: 120px;
+    padding-top: 40px;
+    padding-bottom: 120px
   }
 }
 @media (max-width: 767px) {
   .contact-one__inner {
-    padding-top: 100px;
+    padding-top: 40px;
   }
 }
 @media (max-width: 575px) {
   .contact-one__inner {
-    padding-top: 80px;
+    padding-top: 40px;
   }
 }
 .contact-one__inner .row {
@@ -4863,6 +4865,8 @@ body.megamenu-popup-active .mobile-nav__content {
 .contact-one__form {
   padding: 50px;
   background-color: var(--conlive-black2, #04171b);
+  border-radius: 10px;
+  border: 1px dotted red;
 }
 @media (max-width: 480px) {
   .contact-one__form {
@@ -5538,7 +5542,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .speaker-card__name {
   margin-bottom: 5px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.272;
   color: var(--conlive-black, #222222);
@@ -5559,7 +5563,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 .speaker-card__designation {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.625;
   color: var(--conlive-text, #636363);
@@ -23993,3 +23997,19 @@ body.boxed-wrapper .page-wrapper {
   }
 }
 /*# sourceMappingURL=conlive.css.map */
+.main_right_side{
+  text-align: right;
+}
+.download_app_main img{
+  width: 160px;
+
+}
+.contact-one__top_center{
+  text-align: center;
+}
+.text_color_main{
+  color: red;
+}
+.text_color_main:hover{
+  color: #fff;
+}
